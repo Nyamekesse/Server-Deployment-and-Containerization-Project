@@ -17,14 +17,22 @@ Parameters:
   GitSourceRepo:
     Type: String
     Description: GitHub source repository - must contain a Dockerfile and buildspec.yml in the base
+<<<<<<< HEAD
     Default: Server-Deployment-and-Containerization-Project
+=======
+    Default: Server-Deployment-and-Containerization
+>>>>>>> 8908cb546509dec7718bb17e4a8716b6f37632ef
     MinLength: 1
     MaxLength: 100
     ConstraintDescription: You must enter a GitHub repository name
 
   GitBranch:
     Type: String
+<<<<<<< HEAD
     Default: main
+=======
+    Default: master
+>>>>>>> 8908cb546509dec7718bb17e4a8716b6f37632ef
     Description: GitHub git repository branch - change triggers a new build
     MinLength: 1
     MaxLength: 100
